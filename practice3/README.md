@@ -8,4 +8,4 @@ This repository contains practice examples based on Python tutorials from W3Scho
 - Classes
 - Inheritance
 
-Created for practice and GitHub upload.
+
