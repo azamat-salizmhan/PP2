@@ -22,6 +22,6 @@ def countdown(n):
     while n >= 0:
         yield n
         n -= 1
-n=countdown(5)
+n=squares(1,10)
 for i in n:
     print(i)
