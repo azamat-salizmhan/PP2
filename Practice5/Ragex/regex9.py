@@ -1,2 +1,7 @@
 import re
-print(re.sub(r'(?<!^)(?=[A-Z])', ' ', input()))
+
+text = input()
+
+result = re.sub(r"([A-Z])", r" \1", text)
+
+print(result.strip())
