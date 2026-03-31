@@ -11,7 +11,6 @@ def _print_rows(rows):
 
 
 
-
 def search_by_pattern():
     pattern = input("Enter search pattern (part of name or phone): ").strip()
     conn = get_connection()
