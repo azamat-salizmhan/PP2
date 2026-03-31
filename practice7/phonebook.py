@@ -5,7 +5,7 @@ from connect import get_connection, create_table
 
 
 def insert_from_csv(filepath: str):
-    """Read a CSV file and insert every row into phonebook."""
+    
     conn = get_connection()
     inserted = 0
     skipped = 0
@@ -40,7 +40,7 @@ def insert_from_csv(filepath: str):
 
 
 def insert_from_console():
-    """Prompt the user for one contact and insert it."""
+    
     firstname = input("First name: ").strip()
     lastname  = input("Last name (leave blank if none): ").strip()
     phone     = input("Phone: ").strip()
@@ -120,7 +120,7 @@ def search_by_phone_prefix(prefix: str):
 
 
 def update_by_phone():
-    """Find a contact by phone, then let the user change name or phone."""
+    
     phone = input("Enter the phone number of the contact to update: ").strip()
     conn = get_connection()
     try:
