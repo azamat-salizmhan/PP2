@@ -1,3 +1,7 @@
-first_name,last_name,phone_number
-Ivan,Ivanov,87011112233
-Saken,Sakenov,87022223344
+firstname,lastname,phone
+Alice,Smith,+1-555-0101
+Bob,Johnson,+1-555-0102
+Carol,Williams,+1-555-0103
+David,Brown,+1-555-0104
+Eva,Jones,+1-555-0105
+Frank,Garcia,+1-555-0106
