@@ -2,12 +2,6 @@
 
 A simple Pygame game with a red ball that moves on arrow key presses.
 
-## How to Run
-
-```bash
-pip install pygame
-python main.py
-```
 
 ## Controls
 

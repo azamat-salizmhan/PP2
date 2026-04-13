@@ -2,12 +2,7 @@
 
 A Pygame clock that uses Mickey Mouse-style animated hands.
 
-## How to Run
 
-```bash
-pip install pygame
-python main.py
-```
 
 ## Features
 - Real-time clock synced to system time
@@ -20,4 +15,3 @@ python main.py
 ## Notes
 - Minutes hand: smooth sweep (includes seconds contribution)
 - Seconds hand: ticks every second
-- Rotation uses `pygame.transform.rotate()` with pivot-correct blitting

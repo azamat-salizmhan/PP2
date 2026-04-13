@@ -2,16 +2,6 @@
 
 A Pygame music player that supports full keyboard control.
 
-## How to Run
-
-```bash
-pip install pygame
-python main.py
-```
-
-## Adding Your Own Music
-Place `.mp3`, `.wav`, or `.ogg` files in the `music/` folder.  
-If the folder is empty, three short demo sine-wave tones are generated automatically.
 
 ## Keyboard Controls
 
