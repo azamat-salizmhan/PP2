@@ -31,7 +31,6 @@ class Player:
    
 
     def play(self):
-        """Play / resume the current track."""
         if not self.tracks:
             return
         if pygame.mixer.music.get_busy() and self.is_playing:
