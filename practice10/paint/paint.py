@@ -1,9 +1,3 @@
-"""
-Paint Application
-Simple drawing program with rectangle, circle, eraser tools and color selection.
-Extended from: https://nerdparadise.com/programming/pygame/part6
-"""
-
 import pygame
 import sys
 
@@ -11,7 +5,7 @@ import sys
 pygame.init()
 
 # Constants - Screen dimensions
-SCREEN_WIDTH = 800
+SCREEN_WIDTH = 1000
 SCREEN_HEIGHT = 600
 DRAW_AREA_HEIGHT = 500  # Area for drawing
 UI_HEIGHT = 100        # Area for tools and colors

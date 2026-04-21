@@ -1,9 +1,3 @@
-"""
-Racer Game
-A car racing game where player avoids enemy cars and collects coins.
-Tutorial extended from: https://coderslegacy.com/python/python-pygame-tutorial/
-"""
-
 import pygame
 import random
 import sys
@@ -43,7 +37,7 @@ font_large = pygame.font.SysFont("Arial", 50)
 
 
 class Player(pygame.sprite.Sprite):
-    """Player car class - controlled by arrow keys"""
+    
 
     def __init__(self):
         super().__init__()

@@ -1,8 +1,3 @@
-"""
-Snake Game
-Classic snake game with walls, levels, increasing speed, and score tracking.
-"""
-
 import pygame
 import random
 import sys

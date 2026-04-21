@@ -1,13 +1,3 @@
-"""
-Snake Game - Practice 11
-Extended with weighted food and disappearing food timer.
-
-Features:
-- Food has different weights (values): Small (5), Medium (10), Large (15)
-- Food disappears after a timer expires (shown as progress bar)
-- Food color indicates weight (Green=Small, Yellow=Medium, Red=Large)
-"""
-
 import pygame
 import random
 import sys

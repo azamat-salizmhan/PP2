@@ -1,19 +1,3 @@
-"""
-Paint Application - Practice 11
-Extended with square, right triangle, equilateral triangle, and rhombus.
-
-Features:
-- Brush: Freehand drawing
-- Rectangle: Draw rectangles
-- Square: Draw perfect squares (equal sides)
-- Circle: Draw circles
-- Right Triangle: Triangle with 90-degree angle
-- Equilateral Triangle: Triangle with all sides equal
-- Rhombus: Diamond shape (equal sides, angled corners)
-- Eraser: Remove drawings
-- Color selection: 10 colors available
-"""
-
 import pygame
 import sys
 import math

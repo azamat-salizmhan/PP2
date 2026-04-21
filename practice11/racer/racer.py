@@ -1,13 +1,3 @@
-"""
-Racer Game - Practice 11
-Extended with weighted coins and enemy speed increase.
-
-Features:
-- Coins have different weights (values): Bronze (1), Silver (2), Gold (3)
-- Enemy speed increases every N coins collected
-- Speed boost is applied to all enemies
-"""
-
 import pygame
 import random
 import sys
