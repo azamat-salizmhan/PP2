@@ -1,9 +1,5 @@
 # Practice 11 - Pygame Projects (Extended)
 
-This folder contains extended versions of the Pygame projects from Practice 10.
-
----
-
 ## 1. Racer Game
 
 Extended with weighted coins and enemy speed increase.
@@ -17,11 +13,6 @@ Extended with weighted coins and enemy speed increase.
 - **Total Value Display**: Shows cumulative value of collected coins
 - **Enemy Speed Display**: Shows current enemy speed
 
-### How to Play
-```bash
-cd racer
-python racer.py
-```
 - Use **Arrow Keys** or **WASD** to move
 - Collect coins (higher weight = more points toward speed boost)
 - Enemy speeds up every 5 coins collected
@@ -42,11 +33,7 @@ Extended with weighted food and disappearing food timer.
 - **Food Info**: Displays current food type and remaining time
 - Food disappears when timer expires and respawns elsewhere
 
-### How to Play
-```bash
-cd snake
-python snake.py
-```
+
 - Use **Arrow Keys** or **WASD** to move
 - Eat food before timer runs out
 - Higher value food disappears faster
@@ -76,11 +63,7 @@ Extended with new geometric shapes.
 8. **Eraser**: Remove drawings
 9. **Clear**: Clear entire canvas
 
-### How to Use
-```bash
-cd paint
-python paint.py
-```
+
 - Select a tool from the bottom toolbar
 - Select a color from the color palette
 - Click and drag on canvas to draw shapes
@@ -92,28 +75,8 @@ python paint.py
 - **Triangles**: Drag to set base and height
 - **Rhombus**: Drag diagonally to set size
 
----
 
-## Requirements
 
-All projects require Pygame:
-
-```bash
-pip install pygame
-```
-
-## File Structure
-
-```
-practice11/
-├── racer/
-│   └── racer.py
-├── snake/
-│   └── snake.py
-├── paint/
-│   └── paint.py
-└── readme.md
-```
 
 ## Code Comments
 
@@ -123,6 +86,4 @@ All files include detailed comments explaining:
 - Feature implementations
 - Constants and settings
 
----
 
-*Extended projects for Python programming practice.*

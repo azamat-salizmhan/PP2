@@ -1,9 +1,4 @@
 # Practice 10 - Pygame Projects
-
-This folder contains three Pygame projects: Racer, Snake, and Paint.
-
----
-
 ## 1. Racer Game
 
 A car racing game where you avoid enemy cars and collect coins.
@@ -17,11 +12,7 @@ A car racing game where you avoid enemy cars and collect coins.
 - Increasing difficulty with more enemies
 - Game over and restart functionality
 
-### How to Play
-```bash
-cd racer
-python racer.py
-```
+
 - Use **Arrow Keys** or **WASD** to move left/right
 - Avoid enemy cars
 - Collect coins ($)
@@ -43,18 +34,7 @@ The classic Snake game with added features like levels and wall collision.
 - Score and level counters displayed on UI bar
 - Game over and restart functionality
 
-### How to Play
-```bash
-cd snake
-python snake.py
-```
-- Use **Arrow Keys** or **WASD** to control the snake
-- Eat red food to grow and gain points
-- Avoid walls and yourself
-- Press **R** to restart after game over
-- Press **ESC** to quit
 
----
 
 ## 3. Paint Application
 
@@ -80,28 +60,6 @@ python paint.py
 - For rectangles/circles: drag to set size
 - Press **ESC** to quit
 
----
-
-## Requirements
-
-All projects require Pygame to be installed:
-
-```bash
-pip install pygame
-```
-
-## File Structure
-
-```
-practice10/
-├── racer/
-│   └── racer.py
-├── snake/
-│   └── snake.py
-├── paint/
-│   └── paint.py
-└── readme.md
-```
 
 ## Code Comments
 
@@ -111,6 +69,4 @@ All code files include detailed comments explaining:
 - Important variables and constants
 - Game mechanics
 
----
 
-*Projects completed as part of Python programming practice.*
